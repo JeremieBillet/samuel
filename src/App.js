@@ -1,23 +1,41 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Navbar from './Components/Navbar/Navbar';
+import Accueil from './Containers/Accueil/Accueil';
+import Pineau from './Containers/Pineau/Pineau';
+import Cognac from './Containers/Cognac/Cognac';
+import Soft from './Containers/Soft/Soft';
+import Contact from './Containers/Contact/Contact';
+import Tarif from './Containers/Tarif/Tarif';
+import Footer from './Components/Footer/footer';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" id="page-container">
+      <BrowserRouter>
+
+        <Navbar />
+
+        <div className="container" id="content-wrap">
+          <Switch>
+
+            <Route path="/pineau" exact component={Pineau} />
+            <Route path="/cognac" exact component={Cognac} />
+            <Route path="/soft" exact component={Soft} />
+            <Route path="/contact" exact component={Contact} />
+            <Route path="/tarif" exact component={Tarif} />
+            <Route path="/" component={Accueil} />
+
+          </Switch>
+        </div>
+
+        <Footer/>
+
+
+      </BrowserRouter>
+
+
     </div>
   );
 }

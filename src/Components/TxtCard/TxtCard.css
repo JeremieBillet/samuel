@@ -1,0 +1,27 @@
+.card-body p, .card-body li{
+    text-align: justify;
+    padding: 0 2%;
+}
+
+.card-body h3{
+    padding-bottom: 20px;
+}
+
+.card-body ul{
+    list-style-type: '- ';
+    margin-left: 1rem;
+}
+
+.card-body table {
+    width: 100%;
+    overflow-wrap: break-word;
+}
+.card-body .prix {
+    text-align: right;
+    max-width: 20%;
+    
+}
+
+.card-body thead {
+    text-transform: uppercase;
+}

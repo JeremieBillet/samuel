@@ -1,0 +1,22 @@
+.card-body .img {
+    float: left;
+    width: 20%; 
+    text-align: center;
+}
+
+.card-body img{  
+    margin: 0 5%;
+    min-height: 100px;
+    max-height: 200px;
+}
+
+.card-body .txt{
+    float: left;
+    width: 80%;
+    text-align: justify;
+    padding: 0 2%;
+}
+
+.card-body h3{
+    padding-bottom: 20px;
+}
