@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
 import Accueil from './Containers/Accueil/Accueil';
 import Pineau from './Containers/Pineau/Pineau';
