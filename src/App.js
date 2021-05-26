@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
 import Accueil from './Containers/Accueil/Accueil';
 import Pineau from './Containers/Pineau/Pineau';
@@ -13,7 +13,8 @@ import Footer from './Components/Footer/footer';
 function App() {
   return (
     <div className="App" id="page-container">
-      <BrowserRouter>
+
+      <Router>
 
         <Navbar />
 
@@ -27,13 +28,15 @@ function App() {
             <Route path="/tarif" exact component={Tarif} />
             <Route path="/" component={Accueil} />
 
+
+
           </Switch>
         </div>
 
-        <Footer/>
+        <Footer />
 
 
-      </BrowserRouter>
+      </Router>
 
 
     </div>
