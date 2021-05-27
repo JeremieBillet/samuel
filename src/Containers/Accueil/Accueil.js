@@ -9,7 +9,7 @@ export default function Accueil() {
 
         <>
             <TxtCard>
-                <h3>Accueil - Test</h3>
+                <h3>Accueil</h3>
                 <p>Nous vous souhaitons bienvenus sur notre site encore en amélioration.</p>
                 <p>
                 Si le cœur vous en dit, vous serez aussi bienvenus à "la ferme" pour déguster
