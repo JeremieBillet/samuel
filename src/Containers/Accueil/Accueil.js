@@ -9,7 +9,7 @@ export default function Accueil() {
 
         <>
              <Helmet>
-                <title>Accueil Rousteau</title>
+                <title>Accueil</title>
                 <meta name="description" content="vignoble Rousteau Rullaud" />
                 <meta name="keywords" content="Rousteau, pineau, cognac, accueil" />
             </Helmet>
