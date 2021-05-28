@@ -11,7 +11,7 @@ export default function Contact() {
             
             <Helmet>
                 <title>Contact</title>
-                <meta name="description" content="Rousteau Rulleau" />
+                <meta name="description" content="Rousteau Rullaud" />
                 <meta name="keywords" content="Rousteau, pineau, cognac" />
             </Helmet>
             <TxtCard>

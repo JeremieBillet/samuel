@@ -15,7 +15,7 @@ export default function Pineau() {
         <>
             <Helmet>
                 <title>Pineau</title>
-                <meta name="description" content="Pineau Rousteau Rulleau" />
+                <meta name="description" content="Pineau Rousteau Rullaud" />
                 <meta name="keywords" content="Rousteau, pineau, cognac" />
             </Helmet>
 

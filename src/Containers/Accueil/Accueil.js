@@ -9,9 +9,9 @@ export default function Accueil() {
 
         <>
              <Helmet>
-                <title>Rousteau</title>
-                <meta name="description" content="vignoble Rousteau Rulleau" />
-                <meta name="keywords" content="Rousteau, pineau, cognac" />
+                <title>Accueil Rousteau</title>
+                <meta name="description" content="vignoble Rousteau Rullaud" />
+                <meta name="keywords" content="Rousteau, pineau, cognac, accueil" />
             </Helmet>
             <TxtCard>
                 <h3>Accueil</h3>

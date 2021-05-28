@@ -12,7 +12,7 @@ export default function Cognac() {
         <>
             <Helmet>
                 <title>Cognac</title>
-                <meta name="description" content="Cognac Rousteau Rulleau" />
+                <meta name="description" content="Cognac Rousteau Rullaud" />
                 <meta name="keywords" content="Rousteau, pineau, cognac" />
             </Helmet>
             <TxtCard>

@@ -8,7 +8,7 @@ export default function Tarif() {
         <>  
             <Helmet>
                 <title>Tarif</title>
-                <meta name="description" content="Tarif Rousteau Rulleau" />
+                <meta name="description" content="Tarif Rousteau Rullaud" />
                 <meta name="keywords" content="Rousteau, pineau, cognac, tarif, prix" />
             </Helmet>
             <TxtCard>

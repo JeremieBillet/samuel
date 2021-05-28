@@ -10,7 +10,7 @@ export default function Soft() {
         <>
             <Helmet>
                 <title>Soft</title>
-                <meta name="description" content="Soft Rousteau Rulleau" />
+                <meta name="description" content="Soft Rousteau Rullaud" />
                 <meta name="keywords" content="Rousteau soft, jus, raisin" />
             </Helmet>
 
