@@ -1,7 +1,7 @@
 import Aperitif from '../../Assets/img/cognac.png';
 import VSOP from '../../Assets/img/vsop.jpg';
 import Reserve from '../../Assets/img/reserve.png';
-
+import { Helmet } from 'react-helmet';
 import TxtCard from '../../Components/TxtCard/TxtCard';
 import TxtImgCard from '../../Components/TxtImgCard/TxtImgCard';
 
@@ -10,6 +10,11 @@ export default function Cognac() {
 
     return (
         <>
+            <Helmet>
+                <title>Cognac</title>
+                <meta name="description" content="Cognac Rousteau Rulleau" />
+                <meta name="keywords" content="Rousteau, pineau, cognac" />
+            </Helmet>
             <TxtCard>
                 <h3>Nos Cognacs</h3>
 

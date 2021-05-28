@@ -1,10 +1,16 @@
 import TxtCard from '../../Components/TxtCard/TxtCard';
 import Pdf from '../../Assets/doc/tarif-2018.pdf'
+import { Helmet } from 'react-helmet';
 
 export default function Tarif() {
 
     return (
-        <>
+        <>  
+            <Helmet>
+                <title>Tarif</title>
+                <meta name="description" content="Tarif Rousteau Rulleau" />
+                <meta name="keywords" content="Rousteau, pineau, cognac, tarif, prix" />
+            </Helmet>
             <TxtCard>
                 <p>Nous vous rappelons que nous vous souhaitons bienvenus à "la ferme" pour
                 déguster nos Pineaux, Cognacs, et Jus de raisin afin de vous aider à choisir.

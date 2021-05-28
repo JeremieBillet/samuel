@@ -1,4 +1,5 @@
 import TxtCard from '../../Components/TxtCard/TxtCard';
+import { Helmet } from 'react-helmet';
 
 export default function Contact() {
 
@@ -7,6 +8,12 @@ export default function Contact() {
 
     return (
         <>
+            
+            <Helmet>
+                <title>Contact</title>
+                <meta name="description" content="Rousteau Rulleau" />
+                <meta name="keywords" content="Rousteau, pineau, cognac" />
+            </Helmet>
             <TxtCard>
                 <h3>Coordonnées</h3>
                 <p>N'hésitez pas à nous contacter  ou nous rendre viste</p>

@@ -1,6 +1,6 @@
 import Jus from '../../Assets/img/jus.png';
 import Bulle from '../../Assets/img/bulle.png';
-
+import { Helmet } from 'react-helmet';
 import TxtCard from '../../Components/TxtCard/TxtCard';
 import TxtImgCard from '../../Components/TxtImgCard/TxtImgCard';
 
@@ -8,6 +8,11 @@ export default function Soft() {
 
     return (
         <>
+            <Helmet>
+                <title>Soft</title>
+                <meta name="description" content="Soft Rousteau Rulleau" />
+                <meta name="keywords" content="Rousteau soft, jus, raisin" />
+            </Helmet>
 
             <TxtCard>
                 <h3>Nos softs</h3>

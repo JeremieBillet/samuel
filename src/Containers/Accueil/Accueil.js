@@ -1,5 +1,5 @@
 import Carousel2 from '../../Components/Carousel/Carousel'
-
+import { Helmet } from 'react-helmet';
 import TxtCard from '../../Components/TxtCard/TxtCard';
 
 
@@ -8,6 +8,11 @@ export default function Accueil() {
     return (
 
         <>
+             <Helmet>
+                <title>Rousteau</title>
+                <meta name="description" content="vignoble Rousteau Rulleau" />
+                <meta name="keywords" content="Rousteau, pineau, cognac" />
+            </Helmet>
             <TxtCard>
                 <h3>Accueil</h3>
                 <p>Nous vous souhaitons bienvenus sur notre site encore en amélioration.</p>

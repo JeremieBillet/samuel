@@ -3,6 +3,7 @@ import P5R from '../../Assets/img/pineaur5.png';
 import P10B from '../../Assets/img/pineaub10.png';
 import P10R from '../../Assets/img/pineaur10.png';
 import PHA from '../../Assets/img/pineauha.png';
+import { Helmet } from 'react-helmet';
 
 import TxtCard from '../../Components/TxtCard/TxtCard';
 import TxtImgCard from '../../Components/TxtImgCard/TxtImgCard';
@@ -12,6 +13,11 @@ export default function Pineau() {
 
     return (
         <>
+            <Helmet>
+                <title>Pineau</title>
+                <meta name="description" content="Pineau Rousteau Rulleau" />
+                <meta name="keywords" content="Rousteau, pineau, cognac" />
+            </Helmet>
 
             <TxtCard>
                 <h3>Nos Pineaux</h3>
